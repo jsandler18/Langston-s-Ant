@@ -1,0 +1,12 @@
+Squares on a plane are colored variously either black or white. 
+We arbitrarily identify one square as the "ant". 
+The ant can travel in any of the four cardinal directions at each step it takes. 
+The ant moves according to the rules below:
+
+At a white square, turn 90° right, flip the color of the square, move forward one unit
+At a black square, turn 90° left, flip the color of the square, move forward one unit
+
+I used a simple extension to Langton's ant where instead of just two colors, more colors are used.
+The colors are modified in a cyclic fashion. 
+A simple naming scheme is used: for each of the successive colors, a letter "L" or "R" is used to indicate whether a left or right turn should be taken. 
+Langton's ant has the name "RL" in this naming scheme.
